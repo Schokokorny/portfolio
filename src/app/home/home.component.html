@@ -1,0 +1,49 @@
+<div class="home_body">
+  <div class="home_hero">
+    <img class="hero_image" src="../../assets/dna.png" alt="" />
+    <div class="hero_content">
+      <p>Stefan Konrad</p>
+      <p>Lets connect</p>
+    </div>
+  </div>
+  <div class="home_content">
+    <div class="content_topic">
+      <p>About my skills</p>
+    </div>
+    <div class="skill_cards">
+      <div
+        class="kard gridcontainer row row-cols-xl-3 row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-xs-1 g-4"
+      >
+        <div class="row_container" *ngFor="let val of skills">
+          <img class="card_picture" src="{{ val.picture }}" alt="" />
+          <p>{{ val.name }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="content_topic">
+      <p>My projekts</p>
+    </div>
+    <div class="skill_cards">
+      <div
+        class="kard gridcontainer row row-cols-xl-3 row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-xs-1 g-4"
+      >
+        <div class="row_container" *ngFor="let val of projekts">
+         
+            <div class="container">
+                <img src="{{val.picture}}" alt="Avatar" class="image">
+                <div class="middle">
+                
+                
+                  <p>{{val.discription}}</p>
+                  <p>{{val.technology}}</p>
+
+                  
+                </div>
+              </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

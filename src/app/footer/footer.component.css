@@ -1,0 +1,25 @@
+footer{
+    height: 19vh;
+    text-align: center;
+    opacity: 0.9;
+}
+
+p{
+    font-size: 20px;
+
+}
+
+.sozial_media a{
+    color: white;
+    padding: 1vh;
+    margin: 1vh;
+    font-size: 35px;
+}
+
+.sozial_media a:hover{
+
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+
+}

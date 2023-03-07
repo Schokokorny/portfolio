@@ -1,0 +1,140 @@
+
+.home_hero{
+    height: 80vh;
+    position: relative;
+        z-index: -1;
+
+}
+
+.hero_content{
+    font-size: 7vw;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+    text-shadow:  1px  1px 1px black,
+    1px -1px 1px black,
+   -1px  1px 1px black,
+   -1px -1px 1px black;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.hero_image{
+    object-fit: cover;
+    height: 90vh;
+    width: 100%;
+    overflow: visible;
+}
+
+/* Home Content */
+
+.content_topic{
+    font-size: 10vw;
+    height: 80vh;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    z-index: -1;
+
+}
+.content_topic p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* Skill Cards */
+
+.skill_cards{
+    display: flex;
+    justify-content: center;
+
+}
+
+.kard{
+    justify-content: center;
+    display: flex;
+    width: 80%;
+
+}
+
+.row_container{
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.card_picture{
+    width: 80%;
+    height: 80%;
+}
+
+.kard p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Projekt cards */
+
+.projekt_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projekt_picture{
+    width: 100%;
+    height: 100%;
+}
+
+/* Projekt cart overlay */
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    border-radius: 5px;
+
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .middle p {
+    font-size: 20px;
+  }
+  
