@@ -54,17 +54,5 @@ export const projekts: Array<iprojekts> = [
         technology : "Angular, TS, HTML, CSS",
         discription:"A simple homepage with a shopping cart.",
         picture:"../../assets/italian.jpg"
-    },
-    {
-        name: "Random Projekt",
-        technology:"Angular, TS, HTML",
-        discription: "a easy page about a game",
-        picture:"../../assets/italian.jpg"
-    },
-    {
-        name: "Random Projekt",
-        technology:"Angular, TS, HTML",
-        discription: "a easy page about a game",
-        picture:"../../assets/italian.jpg"
     }
 ]
